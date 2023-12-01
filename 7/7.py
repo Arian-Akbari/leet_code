@@ -4,6 +4,7 @@ def reverse(x: int) -> int:
         x *= -1
         neg = True
     string = str(x)
+
     string = string[::-1]
     final = 0
     if not neg:
